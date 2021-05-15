@@ -17,8 +17,7 @@
         hm: homerow_mods {
             compatible = "zmk,behavior-hold-tap";
             label = "homerow mods";
-            #binding-cells = <2>;
-            tapping_term_ms = <225>;
+            tapping_term_ms = <150>;
             flavor = "tap-preferred";
             bindings = <&kp>, <&kp>;
         };
@@ -34,7 +33,7 @@
                 &kp W &kp C      &kp M       &kp G          &kp V      &kp SQT &kp U        &kp K       &kp J      &kp SEMI
                 &kp R &hm LALT S &hm LCTRL N &hm LGUI T     &kp F      &kp Y   &hm RGUI H   &hm RCTRL A &hm RALT I &kp O
                       &kp B      &kp L       &kp D                             &kp P        &kp COMMA   &kp DOT
-                                 &kp LSHFT   &lt SPC SYMMED                    &lt E NUMNAV &kp BKSP
+                                 &kp LSHFT   &lt SYMMED SPC                    &lt NUMNAV E &kp BKSP
             >;
         };
 
