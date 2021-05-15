@@ -32,18 +32,18 @@
         HANDSDOWN_layer {
             bindings = <
                 &kp W &kp C      &kp M       &kp G          &kp V      &kp SQT &kp U        &kp K       &kp J      &kp SEMI
-                &hm R &hm LALT S &hm LCTRL N &hm LGUI T     &kp F      &kp Y   &hm RGUI H   &hm RCTRL A &hm RALT I &hm O
-                      &kp B      &kp L       &kp D                         &kp P        &kp COMMA   &kp DOT
-                                 &kp LSHFT   &lt SPC SYMMED                &lt E NUMNAV &kp BKSP
+                &kp R &hm LALT S &hm LCTRL N &hm LGUI T     &kp F      &kp Y   &hm RGUI H   &hm RCTRL A &hm RALT I &kp O
+                      &kp B      &kp L       &kp D                             &kp P        &kp COMMA   &kp DOT
+                                 &kp LSHFT   &lt SPC SYMMED                    &lt E NUMNAV &kp BKSP
             >;
         };
 
         NUMNAV_layer {
             bindings = <
                 &kp BSLH &kp N7 &kp N8 &kp N9 &kp TILDE      &kp GRAVE &kp K_FORWARD &kp K_BACK &none     &none
-                &hm DOT  &kp N4 &kp N5 &kp N6 &kp EQUAL      &kp PLUS  &kp LEFT      &kp DOWN   &kp UP    &kp RIGHT
+                &kp DOT  &kp N4 &kp N5 &kp N6 &kp EQUAL      &kp PLUS  &kp LEFT      &kp DOWN   &kp UP    &kp RIGHT
                          &kp N1 &kp N2 &kp N3                          &kp HOME      &kp PG_DN  &kp PG_UP
-                                &trns  &kp N0                          &none         &none
+                                &trans &kp N0                          &none         &none
             >;
         };
 
@@ -58,10 +58,10 @@
 
         FN_layer {
             bindings = <
-                &F10  &kp F7 &kp F8 &kp F9 &kp F11      &none &none &none &none &none
-                &none &kp F4 &kp F5 &kp F6 &kp F12      &none &none &none &none &none
-                      &kp F1 &kp F2 &kp F3                    &none &none none
-                             &none  &none                     &none &none
+                &kp F10 &kp F7 &kp F8 &kp F9 &kp F11      &none &none &none &none &none
+                &none   &kp F4 &kp F5 &kp F6 &kp F12      &none &none &none &none &none
+                        &kp F1 &kp F2 &kp F3                    &none &none &none
+                               &none  &none                     &none &none
             >;
         };
     };
