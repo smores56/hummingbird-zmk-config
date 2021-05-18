@@ -51,7 +51,7 @@
             bindings = <
                 &kp CARET &kp EXCL  &kp LBKT &kp RBKT &kp AT        &kp PIPE &kp CAPS   &kp PSCRN    &none        &none
                 &kp DLLR  &kp HASH  &kp LPAR &kp RPAR &kp STAR      &kp AMPS &kp C_PREV &kp C_VOL_DN &kp C_VOL_UP &kp C_NEXT
-                          &kp PRCNT &kp LBRC &kp LBRC                        &kp C_PP   &kp C_STOP   &kp C_MUTE
+                          &kp PRCNT &kp LBRC &kp RBRC                        &kp C_PP   &kp C_STOP   &kp C_MUTE
                                     &none    &none                           &mo FN     &kp DEL
             >;
         };
